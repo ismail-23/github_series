@@ -1,0 +1,19 @@
+1. What do you mean by git and GitHub?
+Git:
+Git is an open-source software/program which helps to keep track of the files in our computer, It is popularly known as a distributed version control system, it allows the developers to do their work in their own workspace, in their own time, Git allows us to do our work even in offline, it is totally free to use, It has a large variety of operations which allows developers to do their work smooth.
+GitHub:
+    It is service that hosts the repositories in the cloud, it is safe and secure, It is having a wide variety of tools to make work easier.
+2. Why GitHub is so popular and used in most of the projects.?
+   some facts about the GitHub are
+                     1. It has great community support
+                     2.Easy user interface
+                     3.secure cloud storage
+                     4.Easy version control
+3. What is a version control system? How git is a VCS?
+   a version control system is a software that helps to control the different versions of the files, codes, directories, It helps to revert back at any point of the time, a git is a software which does the same tasks like tracking the files and to revert back any point of the version, so we can say that the git is called as the VCS, especially it is distributed version control system.
+4. What are the other platforms similar to GitHub?
+   some of the other platforms like Github are
+                                            1.BitBucket
+                                            2.Gitlab
+                                            3.Apache Ellura
+                                            4.Source forge

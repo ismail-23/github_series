@@ -1,0 +1,38 @@
+1.  How git workflow works?
+           
+        <<<-----------------------clone-------------------------
+
+             -----add---->         -------commit-->
+
+(if existing files)----------commit -a------------>     ---push--->
+         
+   workingDirectory   -->    stage   -->Local Repository --> Remote Repository
+                            (index)
+         <-----------------------------------pull--------------
+
+         <------merge----------------------  <--------fetch-------                          
+Above is the most important cycle of works happening in the git workflow.
+
+2.  What are the different stages of git project as commit,add?
+    1.Initializing Git in project  - using git init
+    2.Adding files to staging Area - using git add filename (which are about to commit)
+    3.Saving point for added files - git commit -m "The short message"
+    4.Adding a remote Repository - git remote add origin(Any nickname) link_of_Githubrepo
+    5.Uploading files to remote- git push nickname master
+
+3. Is it possible to do a git commit before git add. if you have made any changes? Explain  why?
+No,
+This is because commit command helps to save your changes at that instance of time,
+we have to explicitly tell Git which changes you want to  commit before running commit command. Any file won't be automatically included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion.
+
+4. why is git diff is used?
+
+    git diff View difference between Stage and Working Directory
+  others are:
+    git diff --staged View difference between HEAD and Stage
+    git diff HEAD View difference between HEAD and Working Directory
+
+5. can we leave a commit message as blank..?
+   Yes,we can leave the commit message blank like git commit -m " ".
+   But it is not a good practice to do because if we come back, we can't understand    why we done this commit and what changes we done.
+
